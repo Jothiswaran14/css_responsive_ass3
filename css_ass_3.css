@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    width: 90%;
+    margin: auto;
+    
+}
+ul{
+
+    word-spacing: 2em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+li{
+    display: inline-block;
+    font-size: 1.5em;
+    border: solid, whitesmoke;
+}
+li:hover{
+    display: inline-block;
+    color: whitesmoke;
+    background-color: #6af36a;;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 15px 25px;  
+}
+.section1{
+    text-align: center;
+    word-spacing: 2em;
+}
+.topic{
+    color: #9b549b;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    font-size: 2em;
+    font-weight: bolder;
+    display: inline-block;
+    border-left: solid greenyellow;
+    height: fit-content;
+    padding: 5px;
+}
+.img{
+    background: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg) no-repeat center center /cover;
+    height: 400px;
+}
+.img:hover{
+    height: 600px;
+    cursor: pointer;
+}
+.section2{
+   height: max-content;
+}
+.col1{
+    
+    width: 33.3333333%;
+    text-align: center;
+    float: left;
+    padding: 5px;
+    
+    
+}
+.head1{
+    background-color: #88b14b;
+    padding: 5px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: honeydew;  
+    margin: 0;
+}
+.image1{
+    height: 40vh; 
+}
+.col1:hover, .para1:hover{
+    cursor: pointer;
+    background-color: #4ed37a;
+    color: #4c554c;
+    font-size: 1.1em;
+    
+}
+.para1{
+    text-align:justify;
+    margin: 0; 
+    
+}
+.symbol1{
+    float: right;
+    font-size:1.5em;
+    font-weight: bolder;
+    background-color: #88b14b;
+    color: #f1f7f1;
+}
+.clear{
+    clear: both; 
+}
+.col2{
+    width: 33.3333333%;
+    text-align: center;
+    float: left;
+    padding: 5px;
+    
+}
+.para2{
+    text-align: justify;
+    margin: 0;
+}
+.para3{
+    text-align: justify;
+    margin: 0;
+    
+}
+.para3::before{
+    content: "=>";
+}
+button:hover{
+    background-color: grey;
+    color: honeydew;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+.col3{
+    width: 50%;
+    float: left;
+    padding:10px;
+    
+}
+.no1{
+    background-color: #adff2f;
+    width: 10%;
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: honeydew;
+    padding: 15px 15px 15px 10px;
+    margin: 0;
+    text-align: center;
+    float: left;
+}
+.para4{
+    margin: 0;
+    text-align: justify;
+}
+.para4:hover{
+    cursor: pointer;
+    color: rgb(69, 150, 69);
+    
+}
+footer{
+    text-align: center;
+}

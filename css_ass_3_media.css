@@ -1,0 +1,75 @@
+@media only screen and (max-width: 768px){
+    ul li{
+        width: 50%;
+    }
+    }
+    @media only screen and (max-width: 768px){
+        .img{
+            width: 100%;
+        }
+        }
+    @media only screen and (max-width: 768px){
+        .col1{
+             width: 50%;
+        }
+        }
+    @media only screen and (max-width: 768px){
+        .col2{
+                width: 50%;
+        }
+        }
+    @media only screen and (max-width: 768px){
+        .col3{
+                width: 100%;     
+        }
+        }
+@media only screen and (max-width: 1024px){
+    .no1{
+            width: 15%;
+            padding-right: 1em;
+            text-align: center;
+            font-size: 2em;
+            padding: 20px 0 35px 0;
+            
+
+    }
+    @media only screen and (max-width: 768px){
+        .no1{
+                width: 10%;
+                padding-right: 1em;
+                text-align: center;
+                font-size: 2em;
+                padding: 0 0 18px 0;
+                
+
+        }
+@media only screen and (max-width: 576px){
+ul li{
+    width: 100%;
+}
+}
+@media only screen and (max-width: 576px){
+    .img{
+        width: 100%;
+    }
+    }
+@media only screen and (max-width: 576px){
+    .col1{
+         width: 100%;
+    }
+    }
+@media only screen and (max-width: 576px){
+    .col2{
+            width: 100%;
+    }
+    }
+@media only screen and (max-width: 576px){
+    .col3{
+            width: 100%;
+    }
+    }
+@media only screen and (max-width: 576px){
+    .no1{
+            width: 100%;
+    }
+    }
