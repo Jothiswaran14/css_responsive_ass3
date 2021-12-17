@@ -1,8 +1,16 @@
 @media only screen and (max-width: 768px){
     ul li{
-        width: 50%;
+        width: 20%;
+        font-size: small;
+        font-weight: bolder;
     }
+    li:hover{
+        width: 20%;
+        font-size: small;
+        font-weight: bold;
+        padding: 0%;
     }
+}
     @media only screen and (max-width: 768px){
         .img{
             width: 100%;
@@ -45,7 +53,12 @@
         }
 @media only screen and (max-width: 576px){
 ul li{
-    width: 100%;
+    width: 20%;
+}
+li:hover{
+    width: 20%;
+    font-size: small;
+    font-weight: bolder;
 }
 }
 @media only screen and (max-width: 576px){
